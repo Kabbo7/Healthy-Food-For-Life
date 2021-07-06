@@ -1,15 +1,95 @@
+
 body{
     font-family: 'Titillium Web', sans-serif;
 }
-h1{
-    font-size: 50px;
+.margin-auto{
+    margin:auto;
 }
 .orange-color{
     color: orange;
 }
-.top{
+.top-section{
     display: flex;
+    padding-left:10%;
 }
-.top img{
-    width: 80%;
+.top-section h1{
+    font-size: 42px;
+}
+.top-text-section{
+    padding-top: 10%;
+}
+.top-text-section p{
+    margin-bottom: 40px;
+}
+.top-image-section img{
+    width: 67%;
+    padding-left:20%;
+}
+.top_section_btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    background-image: linear-gradient(#ffcd43, #ff9900);
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.middle-section{
+    background-image: url(images/7.png);
+    display: flex;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    margin-top: 40px;
+    padding-top: 5%;
+}
+.middle-section-img img{
+    width: 50%;
+}
+.middle-section-p{
+    margin-bottom: 70px;
+}
+.middle-section-text{
+    padding-right: 20%;
+    padding-left: 15%;
+
+}
+.my-recipies{
+    margin: 10px 0px;
+}
+.my-recipies-text{
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    margin-top: 40px;
+
+}
+.card-1{
+    width: 30%;
+    margin: 0px 30px;
+}
+.card-img{
+    width: 100%;
+}
+.cowndown{
+    text-align: center;
+    display: flex;
+    padding:20px 0px;
+}
+.cowndown_1{
+    width: 30%;
+    margin: 0px 20px;
+
+}
+.cowndown_1 h1{
+    font-size: 40px;
+}
+.cowndown_1 p{
+    margin-top: -40px ;
+}
+.footer_section{
+    background-color: black;
+    color:white;
+    padding: 60px 0px;
+    text-align: center;
 }
