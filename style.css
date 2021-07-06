@@ -1,0 +1,15 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.top{
+    display: flex;
+}
+.top img{
+    width: 80%;
+}
