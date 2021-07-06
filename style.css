@@ -62,7 +62,6 @@ body{
 .card-section{
     display: flex;
     margin-top: 40px;
-
 }
 .card-1{
     width: 30%;
@@ -70,6 +69,8 @@ body{
 }
 .card-img{
     width: 100%;
+    border-radius: 22px;
+    box-shadow:5px 5px 10px gray;
 }
 .cowndown{
     text-align: center;
